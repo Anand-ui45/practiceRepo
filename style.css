@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Teko:wght@300..700&display=swap");
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background */
+body {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+
+  background-color: #1a1a1a;
+  font-family: Quicksand, sans-serif;
+}
+
+/* Card Container */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Profile Card */
+.profile-card {
+  background-color: #2e2e2e;
+  padding: 24px;
+  width: 380px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Profile Image */
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+  box-shadow: 2px 2px 39px #7cfc00;
+  /* border: 3.5px solid #7cfc00; */
+  padding: 10px;
+}
+
+/* Profile Name */
+.profile-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Profile Location */
+.profile-location {
+  color: #7cfc00; /* Light green */
+  font-size: 2.3rem;
+  margin-bottom: 12px;
+  font-family: Teko;
+}
+
+/* Profile Description */
+.profile-description {
+  color: #b0b0b0; /* Light gray */
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Profile Button */
+.profile-button {
+  background-color: #444;
+  color: rgba(234, 245, 247, 0.959);
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+.profile-button:hover {
+  background-color: #7cfc00;
+  color: #444;
+}
+.attribution {
+  color: aliceblue;
+}
